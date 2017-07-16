@@ -1,0 +1,18 @@
+/* i can add my own fonts*/
+@font-face { font-family: roboto; src: url('robotomonoregular.ttf'); }
+@font-face { font-family: robotothin; src: url('robotomonothin.ttf'); }
+
+* {
+  font-family: roboto;
+}
+
+h1 {
+  font-family: robotothin;
+  color: #4e6ba9;
+  font-size: 42px;
+}
+
+special-p {
+  font-size: 16px;
+  color: #af4d49;
+}
